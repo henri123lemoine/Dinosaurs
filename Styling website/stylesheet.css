@@ -1,0 +1,189 @@
+
+#sidebar {
+	background-color: #151718;
+	opacity: 0.95;
+	
+	margin: 0px;
+	
+	padding: 0px;
+	
+	width: 180px;
+	height: 100%;
+	
+	display: block;
+	position: fixed;
+	left: -190px;
+	top: 70px;
+	transition: left 0.2s linear;
+	
+}
+#sidebar.visible {
+	left: 0px;
+	transition: left 0.2s linear;
+}
+
+#sidebarList {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li a{
+	color: #ccc;
+	transition: color 0.3s ease;
+	
+	margin: 0px;
+	
+	border-bottom: 3px solid rgb(0, 0, 0, 1);
+	
+	padding: 10px;
+	
+	text-decoration: none;
+	text-align: center;
+    font-size: 20px;
+	font-family: Arial Black, serif;
+	background-color: #1C1E1F;
+	transition: background-color 0.3s ease;
+	
+	width: 160px;
+	
+	list-style: none;
+	display: block;
+}
+ul li a:hover{
+	background-color: #ccc;
+	transition: background-color 0.3s ease;
+	
+	color: #1C1E1F;
+	transition: color 0.3s ease;
+}
+
+.navbar {
+	background-color: none;
+	
+	margin: 0px 0px 0px 70px;
+	
+	height:70px;
+	width:100%;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+#dinoLogo {
+	background-color: white;
+	margin: 0px 0px 0px 0px;
+	
+    border: solid black 3px;
+	
+    padding: 5px 0px 5px 0px;
+	float: left;
+	
+	top: 0;
+	height: 55px;
+	width: 64px;
+	position: fixed;
+	cursor: pointer;
+}
+
+.dinoChooser {
+	background-color: red;
+	transition: background-color 0.3s ease;
+	
+	
+	
+	margin: 0px -5px 0px 0px;
+	
+    border: solid #C90A0A 3px;
+	
+    padding: 0px;
+	
+	color: white;
+
+    text-align: center;
+    font-size: 16px;
+	font-family: Arial Black, serif;
+
+    cursor: pointer;
+	
+	top: 0;
+	height: 71px;
+	width: 24%;
+}
+
+.dinoChooser:hover {
+    background-color: white;
+	transition: background-color 0.3s ease;
+
+	color: red;
+}
+
+.dinoPhoto {
+	margin: 20px;
+	border: solid black 3px; 
+	float: left;
+	overflow: auto;
+	height: 300px;
+	width: 300px;
+	cursor: zoom-in;
+}
+
+.pages {
+	background-color: white;
+			
+	margin: 0px 10px 10px 10px;
+			
+	border: solid black 8px;
+	border-radius: 25px;
+				
+	padding: 0px;
+				
+	cursor: auto;
+		
+}
+
+.title {
+	margin: 0px;
+				
+	border: none;
+	border-radius: 15px 15px 0px 0px;
+				
+	padding: 10px;
+				
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 3px;
+				
+}
+
+
+
+.paragraph {
+	background-color: white;
+				
+	border: none;
+	border-radius: 0px 0px 15px 15px ;
+				
+	margin: 0px 0px 0px 0px;
+				
+	padding: 30px;
+				
+	color: black;
+	text-align: justify;
+	font-size: 19px;
+	line-height: 20px;
+	text-indent: 30px;
+	font-family: "Arial", serif;
+	font-variant: none;
+
+}
+
+#Pterodactyl {
+	margin: 70px 10px 10px 10px;
+}
+
+
+
+
